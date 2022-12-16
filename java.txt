@@ -1,0 +1,31 @@
+1부터 10까지 출력하는 반복문 
+
+
+- javac 한글깨짐 -> javac –encoding utf-8 filename.java
+- 파일명과 class명이 반드시 일치해야 함
+
+public class Sum { // 첫 자는 대문자
+     public static void main(String[] args) { 
+         // 첫 자는 대문자
+         // 합계를 담을 변수
+        int sum = 0;
+         for (int i = 1; i <= 10; i++) {
+             sum += i;
+         }
+        System.out.println("1부터 10까지의 합은 " + sum + "입니다.");  // 첫 자는 대문자
+     }
+ }
+
+- if(조건식){ // true 일 때 이부분실행} 
+		else if(조건식){ //false 일 때 이부분실행}
+           else{ //false 일 때 이부분실행}
+   switch(값1){
+		case 값1: // 실행
+		break;
+		case 값2: // 실행
+		break;
+		case 값3: // 실행
+		break;
+		default : // 어디에도 해당하지 않으면
+  		break;}
+
