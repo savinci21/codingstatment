@@ -29,3 +29,31 @@ public class Sum { // 첫 자는 대문자
 		default : // 어디에도 해당하지 않으면
   		break;}
 
+-배열 :1차원배열 [0],[1],[2]... -2차원배열 : [0][0],[0][1],[1][1]....
+  ->행은가로 행거, 열은 세로 열쇠 one[행][열], 변수[열], 배열명.length ->size
+  
+- for, while 반복문
+  int one[] = new int[3]
+  for (int i = 0; i < one.length; i++){
+  	one[i] = 10 * i;}
+   while(i < one.length){
+   	System.out.println(one[i]);
+	j++;
+	}
+	
+ - 예외처리변수 try{true}
+                 catch(Exception e){
+         		Sytem.out.println("문제발생")} 자동완성문: 빨간줄아래 Surround with try/catch ->click F2
+			
+-OOP -> class(변수 즉 field 상태 + method 즉 행동 -> 자동차1(instence) = new 자동차class();	
+-접근제어변경자 ->public:외부, protected:public와 private의 중간,private:class안에서만 접근, static:종료때까지 실행, void:반환값이 없음, final :처음과 끝에 고정
+
+-생성자란 - 호출 + 정의
+  객체 생성시 Car c = new Car(); new Car(); 부분을 생성자라고 부른다. 
+   c.name ="korea";, c.speed=100;
+   Car c1 = new Car("korea", 100);  -> 호출
+   class  Car{String name;, int speed; -> 정의
+     		Car(Stirng n, int s,){
+		name = n; speed =s;}
+		}
+			
